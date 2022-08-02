@@ -88,23 +88,23 @@
 
 
 [DECLARAR MÉTODO]
-    <tipo> funcao <nome> : (<tipo>:<nome>,<tipo>:<nome>, ...) {
+    <tipo> funcao <nome> : (<nome>:<tipo>,<nome>:<tipo>, ...) {
                 ...
     }
 
-    inteiro funcao calcular : (inteiro:a,inteiro:b) {
+    inteiro funcao calcular : (a:inteiro,b:inteiro) {
                 ...
     }
 
 
 
 [DECLARAR FUNÇÃO]
-    <tipo> funcao <nome> : (<tipo>:<nome>,<tipo>:<nome>, ...) {
+    <tipo> funcao <nome> : (<nome>:<tipo>,<nome>:<tipo>, ...) {
                 ...
         retorne <valor>
     }
 
-    inteiro funcao calcular : (inteiro:a,inteiro:b) {
+    inteiro funcao calcular : (a:inteiro,b:inteiro) {
         retorne a+b
     }
 
